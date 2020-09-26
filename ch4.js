@@ -138,9 +138,6 @@ console.log(nth(arrayToList([10, 20, 30]), 1));
 
 
 // DeepEqual
-
-
-
 function deepEqual (o1, o2) {
     if (typeof(o1) == 'object' && o1 != null) {
         for (key of Object.keys(o1)) {
